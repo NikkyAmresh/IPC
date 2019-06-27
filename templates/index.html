@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Indian Penal Code</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/4.4.0/bootbox.min.js"></script>
+</head>
+
+<body>
+    <div class="container bg-light">
+        <nav class="navbar rounded navbar-expand-lg navbar-dark bg-dark ">
+            <a class="navbar-brand font-weight-bold" href="/"><img class="rounded" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Star-of-India-gold-centre.svg/1280px-Star-of-India-gold-centre.svg.png" height="30"> The Indian Penal Code</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/chapter">Chapters</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/section">Sections</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/credit">Credits</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">API</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <p>
+    <div class="row justify-content-center">
+                        <div class="col-12 col-sm-6 col-md-4">
+                            <form onsubmit='return false' name=form action="/search"  class="card card-lg-0">
+                                <div class="card-body row no-gutters align-items-center">
+                                    <div class="col">
+                                        <input name=q class="form-control form-control-md" type="search" placeholder="Search topics or keywords">
+                                    </div>
+                                    <div class="col-auto">
+                                        <button onclick=window.location.href="/search/"+form.q.value  class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+        </p>
+        <div id="main">
+        <p>
+        The Indian Penal Code of 1860(An Act to provide a general penal code in India), sub-divided into <b>23 chapters</b>, comprises <b> 511 sections. </b>The Code starts with an introduction, provides explanations and exceptions used in it, and covers a wide range of offences.<br><br>
+        <img class="img-thumbnail mx-auto d-block" width="80%" src="https://i.ibb.co/mqnMmqH/images-1.png"><br>
+            The Indian Penal Code is the official criminal code of India. It is a comprehensive code intended to cover all substantive aspects of criminal law.
+        </p>
+        <p>
+            Various sections of the Indian Penal Code are controversial. They are challenged in courts claiming as against constitution of India. Also there is demand for abolition of some controversial IPC sections completely or partially.
+        </p>
+        </div>
+<footer class="page-footer font-small special-color-dark pt-4">
+  <div class="footer-copyright text-center py-3">Developer
+    <a href="https://m.me/NikkiAmresh">@NikkyAmresh</a>
+  </div>
+</footer>       
+        
+    </div>
+</body>
+</html>
